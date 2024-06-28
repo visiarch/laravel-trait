@@ -1,0 +1,50 @@
+{
+    "name": "visiarch/laravel-trait",
+    "description": "A simple Laravel package to create traits, using artisan commands",
+    "keywords": [
+        "php",
+        "github",
+        "laravel",
+        "Open Source",
+        "trait",
+        "generator",
+        "command",
+        "laravel 9",
+        "laravel 10",
+        "laravel 11"
+    ],
+    "homepage": "https://github.com/visiarch/laravel-trait",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gusti Bagus Suandana",
+            "email": "visiarch@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Visiarch\\TraitServiceTrait\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Visiarch\\TraitServiceTrait\\TraitServiceProvider"
+            ]
+        }
+    }
+}
