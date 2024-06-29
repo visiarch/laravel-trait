@@ -5,6 +5,8 @@
 [![Latest Stable Version](http://poser.pugx.org/visiarch/laravel-trait/v)](https://packagist.org/packages/visiarch/laravel-trait)
 [![License](http://poser.pugx.org/visiarch/laravel-trait/license)](https://packagist.org/packages/visiarch/laravel-trait)
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/bagussuandana)
+
 > A Simple Package to create traits, using artisan commands in laravel.
 
 This package extends the `make:` commands to help you easily create trait classes in Laravel 9+.
@@ -32,10 +34,13 @@ php artisan make:trait {name}
 # Examples
 
 ## Create a php trait
+
 `/app/Traits/Loggable.php`
+
 ```bash
 $ php artisan make:trait Loggable
 ```
+
 `/app/Traits/Loggable.php`
 
 ```php
@@ -52,7 +57,9 @@ trait Loggable {
     // write your code here
 }
 ```
+
 ## Implementation
+
 ```php
 <?php
 trait Loggable {
